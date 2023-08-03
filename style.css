@@ -1,0 +1,82 @@
+/* Set height of the body to 100% */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 10vh;
+  }
+
+/* Background */
+body {
+    background: linear-gradient(45deg, #ded7c2, #c3c1bf);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    background-color: #e0e3ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Header */
+h1 {
+    font-family:fantasy;
+    font-size: 4em;
+    color: #37a3af;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 30px;
+    background: #4d84bf;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    transition: all ease 300ms;
+}
+
+button:hover {
+    background: #254ba3;
+}
+
+/* Center content vertically and horizontally */
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Variable misc classes */
+.hide {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 500px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 3em;
+    }
+}
