@@ -1,3 +1,4 @@
+var clock = document.getElementById("clock");
 // set our variables
 var time, alarm, currentH, currentM,
     activeAlarm = false,
