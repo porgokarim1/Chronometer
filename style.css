@@ -67,6 +67,14 @@ button:hover {
 .hide {
     display: none;
 }
+.cell {
+    transition: .5s ease;
+    }
+    
+    .cell:hover{
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+    }
 
 /* Responsive adjustments */
 @media screen and (max-width: 500px) {
